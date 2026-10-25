@@ -1,5 +1,7 @@
 # Bronson Book
 
-**Bronson Backing Guitar**: a practice page for backing fiddle tunes on guitar. It has a tune picker, a fretboard with chord shapes, a strum and bass transport, and a chord chart. Each tune links to its sheet music and recording.
+**Backing guitar**: a practice page for 44 tunes from the Bronson Fiddle Songbook. It plays a guitar backing, and a fiddle melody for 34 of the tunes, while a fretboard shows exactly which shape to hold and which strings to hit on every beat.
 
-Open `index.html` in a browser. It's a single file and needs no build step.
+Open `index.html` in any browser, on a phone or a computer. It's a single file with no build step, and all the sound is generated in the browser.
+
+See [docs/backing-guitar.md](docs/backing-guitar.md) for the full guide: the panels, how playback works, where the chords and melodies come from, song-by-song coverage, limitations, and a practice quick start.
