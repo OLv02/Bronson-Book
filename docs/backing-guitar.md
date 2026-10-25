@@ -13,11 +13,11 @@ It's built for a guitarist learning to back up a fiddle session. You can pick a 
 - **Melodies:** from the notation stored in the songbook's Learn Melody sections.
 - **Reference links:** to each tune's recording and sheet source.
 
-It runs as a single private web page in any browser, on a phone or a computer. All the sound is generated in the browser, so there are no audio files to download.
+It runs as a web page in any browser, on a phone or a computer. The backing and melody are generated in the browser, so there are no audio files to download. The sheet music images sit in the `sheets/` folder next to the page.
 
 ## What you see on the page
 
-The page is one column with three panels, top to bottom, like a music stand.
+The page is one column with four panels, top to bottom, like a music stand.
 
 ### 1. Song panel
 
@@ -44,6 +44,18 @@ The page is one column with three panels, top to bottom, like a music stand.
 - A collapsible copy of your original chord chart text from the songbook.
 
 The page follows your device's light or dark mode, and fits a phone screen without sideways scrolling.
+
+### 4. From your songbook panel
+
+Everything else the songbook holds for the tune, so you don't need the songbook open alongside:
+
+- **Sheet music:** every sheet image saved for the tune, with its caption, such as "Page 1 of 4" or "Simple harmony". Tap an image to open it full size. Tunes with no saved image link to their sheet source instead.
+- **Nashville numbers:** the tune's Nashville Number System line, with the songbook's note on how to read it.
+- **Recordings:** a player for each saved recording, with 0.5×, 0.75× and 1× speed buttons. Father Kelly's has Melody 90, Harmony 90 and Slow 64 versions, and Reel de Montréal has Main and Slow. Tunes with a YouTube reference embed the video, and tunes with no direct audio file link to their source with the songbook's note about why. Starting the play-along pauses any recording.
+- **Learn melody:** for the 33 tunes with stored notation, a collapsible section that draws the melody as notation with guitar TAB. Tap a note to see its letter name. It also has the songbook's practice note and a warm-up scale in the tune's key.
+- **Tags:** the songbook's tags for the tune, such as "New tunes — October 2026".
+
+A Circle of fifths reference sits at the bottom of the page.
 
 ## How playback works
 
@@ -108,7 +120,7 @@ A song's note also flags anything specific. Examples include a key change (Reel 
 
 ## Song-by-song coverage
 
-44 of the songbook's 46 entries are on the page, and 34 of them play a melody. In the Form column, letters and numbers name the parts in playing order. Songs with special part names, like Redwing's verse and chorus, use labels like V1, V2 and C.
+All 46 of the songbook's entries are on the page. 44 have a backing, and 34 of them play a melody. The two bossa nova songs are listed under "Songbook only (no backing)" and show just their songbook panel. In the Form column, letters and numbers name the parts in playing order. Songs with special part names, like Redwing's verse and chorus, use labels like V1, V2 and C.
 
 | # | Tune | Type | Key | Capo | Melody | Chords from | Form |
 |---|---|---|---|---|---|---|---|
@@ -156,8 +168,8 @@ A song's note also flags anything specific. Examples include a key change (Reel 
 | 45 | Reel Béatrice | Reel | A Minor | — | No | Sheet chord symbols | A A B B C |
 | 46 | Spootiskerry | Reel | G Major | — | No | Sheet chord symbols | A A B |
 | 47 | Bonnie Kate | Reel | D Major | — | Yes | Sheet chord symbols | A A B B |
-| 37 | Água de Beber | Bossa nova | A Minor | — | No | Not included | — |
-| 39 | How Insensitive | Bossa nova | — | — | No | Not included | — |
+| 37 | Água de Beber | Bossa nova | A Minor | — | No | Songbook only, no backing | — |
+| 39 | How Insensitive | Bossa nova | — | — | No | Songbook only, no backing | — |
 
 ## Limitations and things to know
 
@@ -165,7 +177,8 @@ A song's note also flags anything specific. Examples include a key change (Reel 
 - **Melody is missing for 10 tunes,** because the songbook has no stored notation for them. Those play guitar only, and the page says so.
 - **Some melody files are different settings from the sheet.** Rubber Dolly's melody is in F and Orange Blossom Special's is a simple break in E, so their backing follows the melody, not the printed arrangement or your written chart.
 - **Estimated and suggested chords need checking.** Tunes tagged "Timing estimated" or "Suggested chords" are best-effort, so trust your ear and the recording over the page.
-- **Two songs aren't included.** Água de Beber and How Insensitive are bossa nova chord-melody arrangements with jazz voicings that don't fit a boom-chick vamp, and How Insensitive's sheet isn't saved in the songbook.
+- **Two songs have no backing.** Água de Beber and How Insensitive are bossa nova chord-melody arrangements with jazz voicings that don't fit a boom-chick vamp, and How Insensitive's sheet isn't saved in the songbook. Their sheet music, notes and links are still on the page.
+- **Recordings and videos need internet.** They play from the original sites. If you open the page straight from your computer (file://), YouTube may refuse the embedded video; its link still works.
 - **Sound needs a tap to start.** Browsers only allow audio after you press a button. On an iPhone, make sure the silent switch is off.
 - **Settings stay on one device.** The page remembers your last song, player's view and alternating bass in your browser only, so they don't carry over to another device.
 - **Private by default.** Only you can open the page until you share it from its Share menu.
