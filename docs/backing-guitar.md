@@ -13,7 +13,7 @@ It's built for a guitarist learning to back up a fiddle session. You can pick a 
 - **Melodies:** from the notation stored in the songbook's Learn Melody sections.
 - **Reference links:** to each tune's recording and sheet source.
 
-It runs as a web page in any browser, on a phone or a computer. The backing and melody are generated in the browser, so there are no audio files to download. The sheet music images sit in the `sheets/` folder next to the page.
+It runs as a web page in any browser, on a phone or a computer, at https://olv02.github.io/Bronson-Book/. The backing and melody are generated in the browser, so there are no audio files to download. The sheet music images sit in the `sheets/` folder next to the page.
 
 ## What you see on the page
 
@@ -181,7 +181,7 @@ All 46 of the songbook's entries are on the page. 44 have a backing, and 34 of t
 - **Recordings and videos need internet.** They play from the original sites. If you open the page straight from your computer (file://), YouTube may refuse the embedded video; its link still works.
 - **Sound needs a tap to start.** Browsers only allow audio after you press a button. On an iPhone, make sure the silent switch is off.
 - **Settings stay on one device.** The page remembers your last song, player's view and alternating bass in your browser only, so they don't carry over to another device.
-- **Private by default.** Only you can open the page until you share it from its Share menu.
+- **The site is public.** It's published with GitHub Pages at https://olv02.github.io/Bronson-Book/, so anyone with the address can open it.
 
 ## Quick start: practicing with it
 
