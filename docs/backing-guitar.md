@@ -9,7 +9,7 @@ Backing guitar is a practice page for 44 tunes from the Bronson Fiddle Songbook.
 It's built for a guitarist learning to back up a fiddle session. You can pick a tune, watch the chord changes come up in time, and play along at any tempo. Everything in it comes from the songbook file itself:
 
 - **Chords:** read from the sheet music's chord symbols or from your written chord charts.
-- **Capo positions:** from your "easiest way" notes.
+- **Capo positions:** from your "easiest way" notes. A switch shows either those capo shapes or the regular chords with no capo.
 - **Melodies:** from the notation stored in the songbook's Learn Melody sections.
 - **Reference links:** to each tune's recording and sheet source.
 
@@ -94,12 +94,23 @@ The fretboard shows frets 1 to 5 in standard tuning, with every shape drawn as y
 
 **Capo.** When a song uses a capo, the nut bar turns green and a label reads "Shapes shown relative to capo 2" (or whichever fret). Fret numbers count from the capo, so you read the shapes as you know them. The audio is transposed up by the capo amount, so it sounds at the real pitch and matches recordings and fiddlers.
 
-**On test with Bonnie Kate: capo mode and the melody fretboard.** Two switches sit at the top of the fretboard panel. They appear only on Bonnie Kate for now.
+**Regular chords / Easy capo.** A switch at the top of the fretboard panel, on the 21 tunes that use a capo. It starts on **Regular** and the page remembers your choice.
 
-- **Regular chords / Easy capo** starts on Regular: the real chords with no capo (D, G, A7). Easy capo shows the capo shapes instead (capo 7 with G, C, D7). The switch changes the chords and the melody fingering together, and the page remembers it. The sound doesn't change, because both are played at real pitch. Your songbook lists no capo for Bonnie Kate, so its capo 7 follows your other D-major tunes.
-- **Chords / Melody** swaps the chord shape for the melody. Each note is shown with its string, fret and finger, an octave below the fiddle like your songbook's TAB. The next note shows as a dashed ring, and the shaded frets are where your hand sits. A TAB line under the fretboard shows the bar you're in. The page picks fingerings that keep the hand in one position (index finger on the first shaded fret, one finger per fret) and moves only when the notes go out of reach. The label beside the chord name says which position you're in, and "5th pos" on the TAB marks a shift. On Bonnie Kate in Regular mode the A part is in 1st position and the B part moves to 5th. In Easy capo mode the whole tune stays in 1st position.
+- **Regular chords:** the real chords with no capo. The page moves each capo shape up by the capo amount, so with capo 2, G becomes A, C becomes D and Am becomes Bm. Some tunes then need barre chords.
+- **Easy capo:** the capo shapes from your "easiest way" notes, with the capo on.
+- It changes the chord chart, the chord buttons, the fretboard and the melody fingering together. The sound is the same in both modes, because both are played at real pitch. The capo chip reads, for example, "No capo · easy capo 2" in Regular mode.
+- Your songbook chart text and the Nashville numbers stay as written, since the Nashville numbers are the same in either key.
+- Two tunes are special cases. Your songbook lists no capo for **Bonnie Kate**, so Easy capo uses capo 7 with G, C and D7 shapes, like your other D-major tunes. **Kettle Valley Line**'s capo 3 is there to match a recording's key, so Regular plays the sheet's Am, Em, C and Dm with no capo, in A minor as printed. Easy capo puts the capo on 3 to match the recording, so that tune sounds different between the modes.
 
-**Shapes used across the songbook:** G, G7, C, D, D7, Dm, A, A7, A5, Am, Am7, E, E7, Em, B7 and B5. All are open shapes, except the A5 and B5 power chords.
+**Chords / Melody.** A second switch, on the 34 tunes with a melody, swaps the chord shape for the melody line:
+
+- Each note shows its string, fret and finger, an octave below the fiddle like your songbook's TAB. The next note shows as a dashed ring, and the shaded frets are where your hand sits.
+- A TAB line under the fretboard shows the bar you're in.
+- Fingerings keep the hand in one position, with the index finger on the first shaded fret and one finger per fret. The hand moves only when notes go out of reach. The label beside the chord name says which position you're in, and "5th pos" on the TAB marks a shift. Now and then the pinky stretches one fret past the shaded area instead of the hand moving.
+- In Easy capo mode, frets count from the capo, and every capo tune stays in 1st position. Without a capo, most tunes stay in 1st or 2nd position. Some move to 4th or 5th for their high parts, such as the B part of Bonnie Kate and the high parts of Saint Anne's Reel, The Silver Spear and The Wind That Shakes the Barley.
+- In Rannie MacLellan with the capo on, four notes are too low to reach above capo 7. They're played an octave higher and marked ′ on the TAB.
+
+**Shapes used across the songbook:** G, G7, C, D, D7, Dm, A, A7, A5, Am, Am7, E, E7, Em, B7 and B5 are open shapes, except the A5 and B5 power chords. Regular mode adds full barre chords: Bm, Bm7 and B (A shape at fret 2), F#m and F#7 (E shape at fret 2), and F (E shape at fret 1). The barre is drawn as a shaded bar under the index finger. Cm, Eb, Fm and Gm are also on the page, ready for any tune that needs them.
 
 ## Where the chords and melodies come from
 
@@ -190,7 +201,7 @@ All 46 of the songbook's entries are on the page. 44 have a backing, and 34 of t
 
 ## Quick start: practicing with it
 
-1. Pick a tune and look at the capo tag. Put your capo on that fret, or play with none if the tag says "No capo".
+1. Pick a tune and choose **Regular chords** or **Easy capo**. In Easy capo mode, put your capo on the fret the capo tag shows.
 2. Tap each chord button to learn the shapes before you play along.
 3. Drop the tempo well below the default, leave count-in on, and press Play. Watch the beat boxes and the thickening strings to lock in the bass and strum pattern.
 4. Turn on player's view if reading the strings upside down is slowing you down.
