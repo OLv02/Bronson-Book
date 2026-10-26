@@ -94,6 +94,11 @@ The fretboard shows frets 1 to 5 in standard tuning, with every shape drawn as y
 
 **Capo.** When a song uses a capo, the nut bar turns green and a label reads "Shapes shown relative to capo 2" (or whichever fret). Fret numbers count from the capo, so you read the shapes as you know them. The audio is transposed up by the capo amount, so it sounds at the real pitch and matches recordings and fiddlers.
 
+**On test with Bonnie Kate: capo mode and the melody fretboard.** Two switches sit at the top of the fretboard panel. They appear only on Bonnie Kate for now.
+
+- **Regular chords / Easy capo** starts on Regular: the real chords with no capo (D, G, A7). Easy capo shows the capo shapes instead (capo 7 with G, C, D7). The switch changes the chords and the melody fingering together, and the page remembers it. The sound doesn't change, because both are played at real pitch. Your songbook lists no capo for Bonnie Kate, so its capo 7 follows your other D-major tunes.
+- **Chords / Melody** swaps the chord shape for the melody. Each note is shown with its string, fret and finger, an octave below the fiddle like your songbook's TAB. The next note shows as a dashed ring, and the shaded frets are where your hand sits. A TAB line under the fretboard shows the bar you're in. The page picks fingerings that keep the hand in one position (index finger on the first shaded fret, one finger per fret) and moves only when the notes go out of reach. The label beside the chord name says which position you're in, and "5th pos" on the TAB marks a shift. On Bonnie Kate in Regular mode the A part is in 1st position and the B part moves to 5th. In Easy capo mode the whole tune stays in 1st position.
+
 **Shapes used across the songbook:** G, G7, C, D, D7, Dm, A, A7, A5, Am, Am7, E, E7, Em, B7 and B5. All are open shapes, except the A5 and B5 power chords.
 
 ## Where the chords and melodies come from
